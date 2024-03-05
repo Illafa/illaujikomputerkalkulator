@@ -1,0 +1,96 @@
+* {
+	margin: 1px;
+	padding: 1px;
+	font-family: arialblack;
+}
+
+body {
+	
+	background: #FFFACD;
+	height: 637px;
+
+	// untuk memberikan warna pada background luar kalkulator //
+}
+
+.button2:active {
+background-color: mediumpurple;
+
+// untuk memberikan background aktif pada tombol angka //
+} 
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: tan;
+	padding: 25px;
+	border-radius: 0px;
+
+}
+
+.main h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button2 {
+	width: 53px;
+	height: 53px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #BC8F8F;
+	color: white;
+	border-radius: 0px;
+	
+}
+
+.btn-green {
+	width: 52px;
+	height: 52px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: lightsalmon;
+	color: white;
+	border-radius: 0px;
+}
+
+.btn-green:active {
+	background: DarkKhaki;
+
+	// untuk memberikan background aktif pada tombol untuk menghapus, menjumlahkan, mengurangi, membagi, mengurangi, dan mengkali //
+}
+.button1 {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: salmon;
+	color: white;
+	border-radius: 0px;;
+}
+
+.button1:active {
+	background-color: seagreen;
+
+	// untuk memberikan background aktif pada tombol = //
+}
+
+.textarea {
+	width: 217px;
+	margin: 4px;
+	font-size: 22px;
+	padding: 10px;
+	border: none;
+	color: #000000;
+	border-radius: 0px;
+	text-align: right;
+}
